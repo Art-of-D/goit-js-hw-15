@@ -1,7 +1,7 @@
 "use strict";
 
 let validInp = document.querySelector("#validation-input");
-validInp.addEventListener("input", validation);
+validInp.addEventListener("blur", validation);
 
 function validation(){
     if (validInp.value.length >= 6){
