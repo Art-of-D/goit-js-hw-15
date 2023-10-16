@@ -18,6 +18,6 @@ function sender(event){
     let user = {};
     user.email = email.value;
     user.pass = pass.value;
-    console.log(Object.entries(user));
+    console.log(user);
     submitAuth.reset();
 }

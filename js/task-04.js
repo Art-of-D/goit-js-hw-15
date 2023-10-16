@@ -1,6 +1,6 @@
 "use strict";
 
-let bgColor = document.querySelector(".widget");
+let bgColor = document.querySelector("body");
 let outputBgColor = document.querySelector(".color");
 const colorButton = document.querySelector(".change-color");
 colorButton.addEventListener('click', changeBgColor);

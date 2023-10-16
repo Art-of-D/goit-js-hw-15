@@ -7,4 +7,6 @@ document.addEventListener("DOMContentLoaded", function () {
     function zoomer() {
         text.style.fontSize = zoomInput.value + "px";
     }
+    
+    zoomer();
 });
